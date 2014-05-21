@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BCD4409192D0B8B00830952 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCD4408192D0B8B00830952 /* Foundation.framework */; };
+		5BCD440B192D0B8B00830952 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCD440A192D0B8B00830952 /* CoreGraphics.framework */; };
+		5BCD440D192D0B8B00830952 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCD440C192D0B8B00830952 /* UIKit.framework */; };
+		5BCD4413192D0B8B00830952 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BCD4411192D0B8B00830952 /* InfoPlist.strings */; };
+		5BCD4415192D0B8B00830952 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCD4414192D0B8B00830952 /* main.m */; };
+		5BCD4419192D0B8B00830952 /* MWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCD4418192D0B8B00830952 /* MWAppDelegate.m */; };
+		5BCD441C192D0B8B00830952 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BCD441A192D0B8B00830952 /* Main.storyboard */; };
+		5BCD441F192D0B8B00830952 /* MWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCD441E192D0B8B00830952 /* MWViewController.m */; };
+		5BCD4421192D0B8B00830952 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BCD4420192D0B8B00830952 /* Images.xcassets */; };
+		5BCD4428192D0B8B00830952 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCD4427192D0B8B00830952 /* XCTest.framework */; };
+		5BCD4429192D0B8B00830952 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCD4408192D0B8B00830952 /* Foundation.framework */; };
+		5BCD442A192D0B8B00830952 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCD440C192D0B8B00830952 /* UIKit.framework */; };
+		5BCD4432192D0B8B00830952 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BCD4430192D0B8B00830952 /* InfoPlist.strings */; };
+		5BCD4434192D0B8B00830952 /* MWAwesomeFontWrapperExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCD4433192D0B8B00830952 /* MWAwesomeFontWrapperExampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BCD442B192D0B8B00830952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BCD43FD192D0B8B00830952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BCD4404192D0B8B00830952;
+			remoteInfo = MWAwesomeFontWrapperExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BCD4405192D0B8B00830952 /* MWAwesomeFontWrapperExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MWAwesomeFontWrapperExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BCD4408192D0B8B00830952 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5BCD440A192D0B8B00830952 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5BCD440C192D0B8B00830952 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5BCD4410192D0B8B00830952 /* MWAwesomeFontWrapperExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MWAwesomeFontWrapperExample-Info.plist"; sourceTree = "<group>"; };
+		5BCD4412192D0B8B00830952 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BCD4414192D0B8B00830952 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BCD4416192D0B8B00830952 /* MWAwesomeFontWrapperExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MWAwesomeFontWrapperExample-Prefix.pch"; sourceTree = "<group>"; };
+		5BCD4417192D0B8B00830952 /* MWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWAppDelegate.h; sourceTree = "<group>"; };
+		5BCD4418192D0B8B00830952 /* MWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWAppDelegate.m; sourceTree = "<group>"; };
+		5BCD441B192D0B8B00830952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BCD441D192D0B8B00830952 /* MWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWViewController.h; sourceTree = "<group>"; };
+		5BCD441E192D0B8B00830952 /* MWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWViewController.m; sourceTree = "<group>"; };
+		5BCD4420192D0B8B00830952 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5BCD4426192D0B8B00830952 /* MWAwesomeFontWrapperExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MWAwesomeFontWrapperExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BCD4427192D0B8B00830952 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5BCD442F192D0B8B00830952 /* MWAwesomeFontWrapperExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MWAwesomeFontWrapperExampleTests-Info.plist"; sourceTree = "<group>"; };
+		5BCD4431192D0B8B00830952 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BCD4433192D0B8B00830952 /* MWAwesomeFontWrapperExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWAwesomeFontWrapperExampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BCD4402192D0B8B00830952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCD440B192D0B8B00830952 /* CoreGraphics.framework in Frameworks */,
+				5BCD440D192D0B8B00830952 /* UIKit.framework in Frameworks */,
+				5BCD4409192D0B8B00830952 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BCD4423192D0B8B00830952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCD4428192D0B8B00830952 /* XCTest.framework in Frameworks */,
+				5BCD442A192D0B8B00830952 /* UIKit.framework in Frameworks */,
+				5BCD4429192D0B8B00830952 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BCD43FC192D0B8B00830952 = {
+			isa = PBXGroup;
+			children = (
+				5BCD440E192D0B8B00830952 /* MWAwesomeFontWrapperExample */,
+				5BCD442D192D0B8B00830952 /* MWAwesomeFontWrapperExampleTests */,
+				5BCD4407192D0B8B00830952 /* Frameworks */,
+				5BCD4406192D0B8B00830952 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BCD4406192D0B8B00830952 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BCD4405192D0B8B00830952 /* MWAwesomeFontWrapperExample.app */,
+				5BCD4426192D0B8B00830952 /* MWAwesomeFontWrapperExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BCD4407192D0B8B00830952 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BCD4408192D0B8B00830952 /* Foundation.framework */,
+				5BCD440A192D0B8B00830952 /* CoreGraphics.framework */,
+				5BCD440C192D0B8B00830952 /* UIKit.framework */,
+				5BCD4427192D0B8B00830952 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BCD440E192D0B8B00830952 /* MWAwesomeFontWrapperExample */ = {
+			isa = PBXGroup;
+			children = (
+				5BCD4417192D0B8B00830952 /* MWAppDelegate.h */,
+				5BCD4418192D0B8B00830952 /* MWAppDelegate.m */,
+				5BCD441A192D0B8B00830952 /* Main.storyboard */,
+				5BCD441D192D0B8B00830952 /* MWViewController.h */,
+				5BCD441E192D0B8B00830952 /* MWViewController.m */,
+				5BCD4420192D0B8B00830952 /* Images.xcassets */,
+				5BCD440F192D0B8B00830952 /* Supporting Files */,
+			);
+			path = MWAwesomeFontWrapperExample;
+			sourceTree = "<group>";
+		};
+		5BCD440F192D0B8B00830952 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BCD4410192D0B8B00830952 /* MWAwesomeFontWrapperExample-Info.plist */,
+				5BCD4411192D0B8B00830952 /* InfoPlist.strings */,
+				5BCD4414192D0B8B00830952 /* main.m */,
+				5BCD4416192D0B8B00830952 /* MWAwesomeFontWrapperExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BCD442D192D0B8B00830952 /* MWAwesomeFontWrapperExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BCD4433192D0B8B00830952 /* MWAwesomeFontWrapperExampleTests.m */,
+				5BCD442E192D0B8B00830952 /* Supporting Files */,
+			);
+			path = MWAwesomeFontWrapperExampleTests;
+			sourceTree = "<group>";
+		};
+		5BCD442E192D0B8B00830952 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BCD442F192D0B8B00830952 /* MWAwesomeFontWrapperExampleTests-Info.plist */,
+				5BCD4430192D0B8B00830952 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BCD4404192D0B8B00830952 /* MWAwesomeFontWrapperExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BCD4437192D0B8B00830952 /* Build configuration list for PBXNativeTarget "MWAwesomeFontWrapperExample" */;
+			buildPhases = (
+				5BCD4401192D0B8B00830952 /* Sources */,
+				5BCD4402192D0B8B00830952 /* Frameworks */,
+				5BCD4403192D0B8B00830952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MWAwesomeFontWrapperExample;
+			productName = MWAwesomeFontWrapperExample;
+			productReference = 5BCD4405192D0B8B00830952 /* MWAwesomeFontWrapperExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BCD4425192D0B8B00830952 /* MWAwesomeFontWrapperExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BCD443A192D0B8B00830952 /* Build configuration list for PBXNativeTarget "MWAwesomeFontWrapperExampleTests" */;
+			buildPhases = (
+				5BCD4422192D0B8B00830952 /* Sources */,
+				5BCD4423192D0B8B00830952 /* Frameworks */,
+				5BCD4424192D0B8B00830952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BCD442C192D0B8B00830952 /* PBXTargetDependency */,
+			);
+			name = MWAwesomeFontWrapperExampleTests;
+			productName = MWAwesomeFontWrapperExampleTests;
+			productReference = 5BCD4426192D0B8B00830952 /* MWAwesomeFontWrapperExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BCD43FD192D0B8B00830952 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Martin Wilz";
+				TargetAttributes = {
+					5BCD4425192D0B8B00830952 = {
+						TestTargetID = 5BCD4404192D0B8B00830952;
+					};
+				};
+			};
+			buildConfigurationList = 5BCD4400192D0B8B00830952 /* Build configuration list for PBXProject "MWAwesomeFontWrapperExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BCD43FC192D0B8B00830952;
+			productRefGroup = 5BCD4406192D0B8B00830952 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BCD4404192D0B8B00830952 /* MWAwesomeFontWrapperExample */,
+				5BCD4425192D0B8B00830952 /* MWAwesomeFontWrapperExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BCD4403192D0B8B00830952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCD4421192D0B8B00830952 /* Images.xcassets in Resources */,
+				5BCD4413192D0B8B00830952 /* InfoPlist.strings in Resources */,
+				5BCD441C192D0B8B00830952 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BCD4424192D0B8B00830952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCD4432192D0B8B00830952 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BCD4401192D0B8B00830952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCD4419192D0B8B00830952 /* MWAppDelegate.m in Sources */,
+				5BCD441F192D0B8B00830952 /* MWViewController.m in Sources */,
+				5BCD4415192D0B8B00830952 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BCD4422192D0B8B00830952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCD4434192D0B8B00830952 /* MWAwesomeFontWrapperExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BCD442C192D0B8B00830952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BCD4404192D0B8B00830952 /* MWAwesomeFontWrapperExample */;
+			targetProxy = 5BCD442B192D0B8B00830952 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BCD4411192D0B8B00830952 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BCD4412192D0B8B00830952 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5BCD441A192D0B8B00830952 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BCD441B192D0B8B00830952 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BCD4430192D0B8B00830952 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BCD4431192D0B8B00830952 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BCD4435192D0B8B00830952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5BCD4436192D0B8B00830952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BCD4438192D0B8B00830952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MWAwesomeFontWrapperExample/MWAwesomeFontWrapperExample-Prefix.pch";
+				INFOPLIST_FILE = "MWAwesomeFontWrapperExample/MWAwesomeFontWrapperExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5BCD4439192D0B8B00830952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MWAwesomeFontWrapperExample/MWAwesomeFontWrapperExample-Prefix.pch";
+				INFOPLIST_FILE = "MWAwesomeFontWrapperExample/MWAwesomeFontWrapperExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5BCD443B192D0B8B00830952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MWAwesomeFontWrapperExample.app/MWAwesomeFontWrapperExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MWAwesomeFontWrapperExample/MWAwesomeFontWrapperExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MWAwesomeFontWrapperExampleTests/MWAwesomeFontWrapperExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5BCD443C192D0B8B00830952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MWAwesomeFontWrapperExample.app/MWAwesomeFontWrapperExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MWAwesomeFontWrapperExample/MWAwesomeFontWrapperExample-Prefix.pch";
+				INFOPLIST_FILE = "MWAwesomeFontWrapperExampleTests/MWAwesomeFontWrapperExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BCD4400192D0B8B00830952 /* Build configuration list for PBXProject "MWAwesomeFontWrapperExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BCD4435192D0B8B00830952 /* Debug */,
+				5BCD4436192D0B8B00830952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BCD4437192D0B8B00830952 /* Build configuration list for PBXNativeTarget "MWAwesomeFontWrapperExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BCD4438192D0B8B00830952 /* Debug */,
+				5BCD4439192D0B8B00830952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BCD443A192D0B8B00830952 /* Build configuration list for PBXNativeTarget "MWAwesomeFontWrapperExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BCD443B192D0B8B00830952 /* Debug */,
+				5BCD443C192D0B8B00830952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BCD43FD192D0B8B00830952 /* Project object */;
+}
