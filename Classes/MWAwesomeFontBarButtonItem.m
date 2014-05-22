@@ -55,12 +55,19 @@
 
         if (iconCodes && iconCodes.count > 0) {
             NSString *iconCode = [iconCodes objectAtIndex:0];
-            FAKFontAwesome *icon = [FAKFontAwesome iconWithCode:iconCode size:23];
 
-            UIImage *iconImage = [icon imageWithSize:CGSizeMake(31, 31)];
+            CGFloat scale = 1.0;
+            if ([[UIScreen mainScreen] respondsToSelector:@selector(scale)] == YES) {
+                scale = [[UIScreen mainScreen] scale];
+            }
+
+            // image size should be about 22 pixels according human interface guidelines
+            FAKFontAwesome *icon = [FAKFontAwesome iconWithCode:iconCode size:22 * scale];
+
+            UIImage *iconImage = [icon imageWithSize:CGSizeMake(22 * scale, 22 * scale)];
 
             self.image = iconImage;
-            self.title = @"";
+            self.title = nil;
         }
     }
 
