@@ -4,41 +4,79 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller - Root View Controller-->
-        <scene sceneID="mm3-TD-NPf">
+        <!--View Controller - Item 1-->
+        <scene sceneID="bgv-nL-m9r">
             <objects>
-                <tableViewController id="u9y-2B-pwv" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="xYm-6K-GK3">
+                <viewController id="c8d-in-fPN" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ie3-qa-5aK"/>
+                        <viewControllerLayoutGuide type="bottom" id="G7t-Bx-m0w"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5xd-wJ-bsd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="reuseIdentifier" id="Zgw-PK-mkf">
-                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Zgw-PK-mkf" id="l6a-Yr-axm">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="u9y-2B-pwv" id="dAN-Hp-ZAf"/>
-                            <outlet property="delegate" destination="u9y-2B-pwv" id="w6g-5v-UGJ"/>
-                        </connections>
-                    </tableView>
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="2dM-Ol-d9a">
-                        <barButtonItem key="leftBarButtonItem" title="fa-star" id="gev-TC-aOG" customClass="MWAwesomeFontBarButtonItem"/>
-                        <barButtonItem key="rightBarButtonItem" title="fa-caret-square-o-right" id="Ah7-8O-bDX" customClass="MWAwesomeFontBarButtonItem">
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="wW1-Ug-Cr4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v6v-Q6-n8F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="903" y="-112"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="fGd-zW-FMM">
+            <objects>
+                <tabBarController definesPresentationContext="YES" id="6v0-PX-Gpl" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="gpA-vz-ONl">
+                        <barButtonItem key="leftBarButtonItem" title="fa-star" id="jpY-pf-K1s" customClass="MWAwesomeFontBarButtonItem">
+                            <color key="tintColor" red="1" green="0.66677871870000005" blue="0.00099119386939999993" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="fa-play-circle-o" id="b84-UE-b7n" userLabel="Awesome Font Bar Button Item -  fa-play-circle-o" customClass="MWAwesomeFontBarButtonItem">
                             <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
                     </navigationItem>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="26s-cW-xMq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="YbY-PU-Sg5">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="c8d-in-fPN" kind="relationship" relationship="viewControllers" id="XBX-tj-crK"/>
+                        <segue destination="CVZ-V1-MSd" kind="relationship" relationship="viewControllers" id="f0F-bj-jyP"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qvu-k4-5Ed" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationItem title="Root View Controller" id="Syv-FV-bjV">
+                    <barButtonItem key="leftBarButtonItem" title="fa-star" id="6y2-U8-8yA" customClass="MWAwesomeFontBarButtonItem">
+                        <color key="tintColor" red="1" green="0.66677871870000005" blue="0.00099119386939999993" alpha="1" colorSpace="calibratedRGB"/>
+                    </barButtonItem>
+                    <barButtonItem key="rightBarButtonItem" title="fa-play-circle-o" id="UeQ-3B-ifA" customClass="MWAwesomeFontBarButtonItem">
+                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </barButtonItem>
+                </navigationItem>
+                <navigationItem title="Root View Controller" id="2dM-Ol-d9a"/>
             </objects>
-            <point key="canvasLocation" x="736" y="232"/>
+            <point key="canvasLocation" x="412" y="263"/>
+        </scene>
+        <!--View Controller - Item 2-->
+        <scene sceneID="iHf-9j-bqc">
+            <objects>
+                <viewController id="CVZ-V1-MSd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="euk-Qv-daB"/>
+                        <viewControllerLayoutGuide type="bottom" id="9bk-nX-Cc5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pGl-8S-Uy0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="Fg3-23-G0L"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iVO-Bw-zqv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="890" y="604"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pVm-dN-Qg3">
@@ -48,12 +86,12 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="u9y-2B-pwv" kind="relationship" relationship="rootViewController" id="RHR-zI-Djs"/>
+                        <segue destination="6v0-PX-Gpl" kind="relationship" relationship="rootViewController" id="Gwl-xh-6Mo"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="etU-dQ-3SX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="202" y="232"/>
+            <point key="canvasLocation" x="-33" y="271"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

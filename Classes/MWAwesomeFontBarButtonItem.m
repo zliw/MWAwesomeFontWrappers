@@ -62,7 +62,7 @@
             }
 
             // image size should be about 22 pixels according human interface guidelines
-            FAKFontAwesome *icon = [FAKFontAwesome iconWithCode:iconCode size:22 * scale];
+            FAKFontAwesome *icon = [FAKFontAwesome iconWithCode:iconCode size:16 * scale];
 
             UIImage *iconImage = [icon imageWithSize:CGSizeMake(22 * scale, 22 * scale)];
 
