@@ -1,0 +1,4 @@
+platform :ios, '7.0'
+inhibit_all_warnings!
+
+pod 'FontAwesomeKit/FontAwesome', '~> 2.1.0'
