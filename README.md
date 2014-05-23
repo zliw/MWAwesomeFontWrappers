@@ -2,7 +2,7 @@
 MWAwesomeFontWrappers
 =====================
 
-A collection of UIView subclasses to wrap around [FontAwesomeKit](https://github.com/PrideChung/FontAwesomeKit) to allow configuration of components from interface builder misusing the title attribute of the classes involved. This is a slightly hackish approach to configuring icons in interface builder and is caused by apples lack of priorising custom font support in interface builder. Once apple supports custom fonts, this project should be considered obsolete.
+A collection of UIView subclasses to wrap around [FontAwesomeKit](https://github.com/PrideChung/FontAwesomeKit) to allow configuration of components from interface builder misusing the title attribute of the classes involved. This is a slightly hackish approach to configure icons in interface builder. It is a tradeoff caused by Apple not priorising custom font support in interface builder. Once Apple supports custom fonts, this project can be considered obsolete.
 
 ## Requirements
 
@@ -38,7 +38,8 @@ Then use the title attribute to specify the icon you want:
 
 ![set title](screenshots/bar-button-configuration.png)
 
-You won't see the icon in interface builder, but when running the application the button will automatically be created by the 'MWAwesomeFontNavigationBarItem` class. Tint color and connections made in interface builder are left intact.
+You won't see the icon in interface builder, but when running the application the button will automatically be created by the 'MWAwesomeFontNavigationBarItem` class. Tint color and connections made in interface builder are left intact:
 
+![result](screenshots/bar-button-result.png)
 
 
