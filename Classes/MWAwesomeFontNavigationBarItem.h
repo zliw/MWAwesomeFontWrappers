@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MWAwesomeFontBarButtonItem : UIBarButtonItem
+@interface MWAwesomeFontNavigationBarItem : UIBarButtonItem
 
 @end

@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--View Controller - Item 1-->
+        <!--View Controller - Circle [fa-circle]-->
         <scene sceneID="bgv-nL-m9r">
             <objects>
                 <viewController id="c8d-in-fPN" sceneMemberID="viewController">
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="wW1-Ug-Cr4"/>
+                    <tabBarItem key="tabBarItem" title="Circle [fa-circle]" id="wW1-Ug-Cr4" customClass="MWAwesomeFontTabBarItem"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v6v-Q6-n8F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -28,14 +28,14 @@
             <objects>
                 <tabBarController definesPresentationContext="YES" id="6v0-PX-Gpl" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="gpA-vz-ONl">
-                        <barButtonItem key="leftBarButtonItem" title="fa-star" id="jpY-pf-K1s" customClass="MWAwesomeFontBarButtonItem">
+                        <barButtonItem key="leftBarButtonItem" title="fa-star" id="jpY-pf-K1s" customClass="MWAwesomeFontNavigationBarItem">
                             <color key="tintColor" red="1" green="0.66677871870000005" blue="0.00099119386939999993" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="fa-play-circle-o" id="b84-UE-b7n" userLabel="Awesome Font Bar Button Item -  fa-play-circle-o" customClass="MWAwesomeFontBarButtonItem">
+                        <barButtonItem key="rightBarButtonItem" title="fa-play-circle-o" id="b84-UE-b7n" userLabel="Awesome Font Bar Button Item -  fa-play-circle-o" customClass="MWAwesomeFontNavigationBarItem">
                             <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
                     </navigationItem>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="YbY-PU-Sg5">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -48,10 +48,10 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qvu-k4-5Ed" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationItem title="Root View Controller" id="Syv-FV-bjV">
-                    <barButtonItem key="leftBarButtonItem" title="fa-star" id="6y2-U8-8yA" customClass="MWAwesomeFontBarButtonItem">
+                    <barButtonItem key="leftBarButtonItem" title="fa-star" id="6y2-U8-8yA" customClass="MWAwesomeFontNavigationBarItem">
                         <color key="tintColor" red="1" green="0.66677871870000005" blue="0.00099119386939999993" alpha="1" colorSpace="calibratedRGB"/>
                     </barButtonItem>
-                    <barButtonItem key="rightBarButtonItem" title="fa-play-circle-o" id="UeQ-3B-ifA" customClass="MWAwesomeFontBarButtonItem">
+                    <barButtonItem key="rightBarButtonItem" title="fa-play-circle-o" id="UeQ-3B-ifA" customClass="MWAwesomeFontNavigationBarItem">
                         <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </barButtonItem>
                 </navigationItem>
@@ -59,7 +59,7 @@
             </objects>
             <point key="canvasLocation" x="412" y="263"/>
         </scene>
-        <!--View Controller - Item 2-->
+        <!--View Controller - Arrows[fa-arrows]-->
         <scene sceneID="iHf-9j-bqc">
             <objects>
                 <viewController id="CVZ-V1-MSd" sceneMemberID="viewController">
@@ -72,7 +72,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="Fg3-23-G0L"/>
+                    <tabBarItem key="tabBarItem" title="Arrows[fa-arrows]" id="Fg3-23-G0L" customClass="MWAwesomeFontTabBarItem"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iVO-Bw-zqv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
