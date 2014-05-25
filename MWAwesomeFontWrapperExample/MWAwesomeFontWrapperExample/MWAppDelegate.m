@@ -7,12 +7,16 @@
 //
 
 #import "MWAppDelegate.h"
+#import <FontAwesomeKit/FAKFontAwesome.h>
 
 @implementation MWAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    // to avoid issues on IOS 7.0
+    // as suggested in https://github.com/PrideChung/FontAwesomeKit/blob/master/KnownIssues.md
+    [FAKFontAwesome iconFontWithSize:1];
+
     return YES;
 }
 							
