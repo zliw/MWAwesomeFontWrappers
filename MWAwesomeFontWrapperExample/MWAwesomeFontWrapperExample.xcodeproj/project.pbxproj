@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B59AE661931DF5500D87972 /* MWAwesomeFontButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B59AE651931DF5500D87972 /* MWAwesomeFontButton.m */; };
 		5B5DEDCB192F473F003EC847 /* MWAwesomeFontTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5DEDCA192F473F003EC847 /* MWAwesomeFontTabBarItem.m */; };
 		5B5DEDCE192F47FA003EC847 /* FAKFontAwesome+ImageCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5DEDCD192F47FA003EC847 /* FAKFontAwesome+ImageCreator.m */; };
 		5BCD4409192D0B8B00830952 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCD4408192D0B8B00830952 /* Foundation.framework */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B59AE641931DF5500D87972 /* MWAwesomeFontButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWAwesomeFontButton.h; path = ../Classes/MWAwesomeFontButton.h; sourceTree = "<group>"; };
+		5B59AE651931DF5500D87972 /* MWAwesomeFontButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MWAwesomeFontButton.m; path = ../Classes/MWAwesomeFontButton.m; sourceTree = "<group>"; };
 		5B5DEDC9192F473F003EC847 /* MWAwesomeFontTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWAwesomeFontTabBarItem.h; path = ../Classes/MWAwesomeFontTabBarItem.h; sourceTree = "<group>"; };
 		5B5DEDCA192F473F003EC847 /* MWAwesomeFontTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MWAwesomeFontTabBarItem.m; path = ../Classes/MWAwesomeFontTabBarItem.m; sourceTree = "<group>"; };
 		5B5DEDCC192F47FA003EC847 /* FAKFontAwesome+ImageCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "FAKFontAwesome+ImageCreator.h"; path = "../Classes/FAKFontAwesome+ImageCreator.h"; sourceTree = "<group>"; };
@@ -177,6 +180,8 @@
 				5B5DEDCA192F473F003EC847 /* MWAwesomeFontTabBarItem.m */,
 				5B5DEDCC192F47FA003EC847 /* FAKFontAwesome+ImageCreator.h */,
 				5B5DEDCD192F47FA003EC847 /* FAKFontAwesome+ImageCreator.m */,
+				5B59AE641931DF5500D87972 /* MWAwesomeFontButton.h */,
+				5B59AE651931DF5500D87972 /* MWAwesomeFontButton.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -318,6 +323,7 @@
 				5BCD441F192D0B8B00830952 /* MWViewController.m in Sources */,
 				5B5DEDCE192F47FA003EC847 /* FAKFontAwesome+ImageCreator.m in Sources */,
 				5BCD4415192D0B8B00830952 /* main.m in Sources */,
+				5B59AE661931DF5500D87972 /* MWAwesomeFontButton.m in Sources */,
 				5BF05470192DDCEB0008CE14 /* MWAwesomeFontNavigationBarItem.m in Sources */,
 				5B5DEDCB192F473F003EC847 /* MWAwesomeFontTabBarItem.m in Sources */,
 			);

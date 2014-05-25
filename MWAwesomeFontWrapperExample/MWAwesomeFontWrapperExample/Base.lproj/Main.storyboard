@@ -4,34 +4,144 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--View Controller - Circle [fa-circle]-->
-        <scene sceneID="bgv-nL-m9r">
+        <!--Table View Controller-->
+        <scene sceneID="2Gg-9h-4Bn">
             <objects>
-                <viewController id="c8d-in-fPN" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ie3-qa-5aK"/>
-                        <viewControllerLayoutGuide type="bottom" id="G7t-Bx-m0w"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="5xd-wJ-bsd">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Circle [fa-circle]" id="wW1-Ug-Cr4" customClass="MWAwesomeFontTabBarItem"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="v6v-Q6-n8F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="mE8-zO-gB4" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Zfg-X0-TGk">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <view key="tableFooterView" contentMode="scaleToFill" id="pzA-2q-ps1">
+                            <rect key="frame" x="0.0" y="132" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        </view>
+                        <sections>
+                            <tableViewSection id="Bxb-ex-AQI">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="8Am-cU-RST">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" tableViewCell="8Am-cU-RST" id="3aF-dy-rcM">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u9s-CX-WG6" customClass="MWAwesomeFontButton">
+                                                    <rect key="frame" x="20" y="7" width="30" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="30" id="cpz-fk-PdL"/>
+                                                        <constraint firstAttribute="height" constant="30" id="zpg-5I-h7Y"/>
+                                                    </constraints>
+                                                    <color key="tintColor" red="0.0" green="1" blue="0.016062608867891903" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <state key="normal" title="fa-adjust">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                </button>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="first icon" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4nl-QG-LHb">
+                                                    <rect key="frame" x="58" y="11" width="242" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="centerY" secondItem="u9s-CX-WG6" secondAttribute="centerY" id="D1Z-hm-PsJ"/>
+                                                <constraint firstItem="u9s-CX-WG6" firstAttribute="leading" secondItem="3aF-dy-rcM" secondAttribute="leading" constant="20" id="Ked-Un-X07"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="FBj-X6-7Ao">
+                                        <rect key="frame" x="0.0" y="44" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" tableViewCell="FBj-X6-7Ao" id="qem-6t-sxh">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AfJ-3d-a9S" customClass="MWAwesomeFontButton">
+                                                    <rect key="frame" x="20" y="7" width="30" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="30" id="TVe-Na-YFF"/>
+                                                        <constraint firstAttribute="height" constant="30" id="YUp-Yr-rgo"/>
+                                                    </constraints>
+                                                    <state key="normal" title="fa-magic">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                </button>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="second icon" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UcE-dn-nax">
+                                                    <rect key="frame" x="58" y="11" width="223" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="AfJ-3d-a9S" firstAttribute="leading" secondItem="qem-6t-sxh" secondAttribute="leading" constant="20" id="4gL-QQ-nHg"/>
+                                                <constraint firstAttribute="centerY" secondItem="AfJ-3d-a9S" secondAttribute="centerY" constant="-0.5" id="I2n-Gs-sui"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Mqv-tk-sOz">
+                                        <rect key="frame" x="0.0" y="88" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" tableViewCell="Mqv-tk-sOz" id="sQd-ya-HHQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ngy-Jl-c3v" customClass="MWAwesomeFontButton">
+                                                    <rect key="frame" x="20" y="7" width="30" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="30" id="aN9-eA-qKm"/>
+                                                        <constraint firstAttribute="height" constant="30" id="pWs-1X-AbI"/>
+                                                    </constraints>
+                                                    <color key="tintColor" red="0.0" green="1" blue="0.9764262798099641" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <state key="normal" title="fa-gift">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                </button>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="third icon" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nyn-C9-dZw">
+                                                    <rect key="frame" x="58" y="11" width="242" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Ngy-Jl-c3v" firstAttribute="leading" secondItem="sQd-ya-HHQ" secondAttribute="leading" constant="20" id="6wZ-Ve-gnH"/>
+                                                <constraint firstAttribute="centerY" secondItem="Ngy-Jl-c3v" secondAttribute="centerY" id="PXf-9e-pL0"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="mE8-zO-gB4" id="AMZ-KX-XjX"/>
+                            <outlet property="delegate" destination="mE8-zO-gB4" id="b7E-F6-edP"/>
+                        </connections>
+                    </tableView>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <navigationItem key="navigationItem" id="LfZ-3G-GLK"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o5v-Pm-P8H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="903" y="-112"/>
+            <point key="canvasLocation" x="1402" y="-250"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar Controller - Test-->
         <scene sceneID="fGd-zW-FMM">
             <objects>
                 <tabBarController definesPresentationContext="YES" id="6v0-PX-Gpl" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="gpA-vz-ONl">
+                    <navigationItem key="navigationItem" title="Test" id="gpA-vz-ONl">
                         <barButtonItem key="leftBarButtonItem" title="fa-star" id="jpY-pf-K1s" customClass="MWAwesomeFontNavigationBarItem">
                             <color key="tintColor" red="1" green="0.66677871870000005" blue="0.00099119386939999993" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="fa-play-circle-o" id="b84-UE-b7n" userLabel="Awesome Font Bar Button Item -  fa-play-circle-o" customClass="MWAwesomeFontNavigationBarItem">
+                        <barButtonItem key="rightBarButtonItem" title="fa-bars" id="b84-UE-b7n" userLabel="Awesome Font Bar Button Item -  fa-play-circle-o" customClass="MWAwesomeFontNavigationBarItem">
                             <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
                     </navigationItem>
@@ -42,7 +152,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="c8d-in-fPN" kind="relationship" relationship="viewControllers" id="XBX-tj-crK"/>
+                        <segue destination="VrE-in-dl9" kind="relationship" relationship="viewControllers" id="pzG-yU-Lso"/>
                         <segue destination="CVZ-V1-MSd" kind="relationship" relationship="viewControllers" id="f0F-bj-jyP"/>
                     </connections>
                 </tabBarController>
@@ -57,7 +167,7 @@
                 </navigationItem>
                 <navigationItem title="Root View Controller" id="2dM-Ol-d9a"/>
             </objects>
-            <point key="canvasLocation" x="412" y="263"/>
+            <point key="canvasLocation" x="428" y="249"/>
         </scene>
         <!--View Controller - Arrows[fa-arrows]-->
         <scene sceneID="iHf-9j-bqc">
@@ -76,7 +186,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iVO-Bw-zqv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="890" y="604"/>
+            <point key="canvasLocation" x="924" y="440"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pVm-dN-Qg3">
@@ -92,6 +202,29 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="etU-dQ-3SX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-33" y="271"/>
+        </scene>
+        <!--Navigation Controller - Circle [fa-circle]-->
+        <scene sceneID="i1r-vP-M0B">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VrE-in-dl9" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Circle [fa-circle]" id="zUl-K8-Vgf" customClass="MWAwesomeFontTabBarItem"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pbe-Gt-svo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Mbq-4b-9Dm">
+                        <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="mE8-zO-gB4" kind="relationship" relationship="rootViewController" id="eM6-F6-wNW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rNX-da-OH0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="876" y="-250"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
