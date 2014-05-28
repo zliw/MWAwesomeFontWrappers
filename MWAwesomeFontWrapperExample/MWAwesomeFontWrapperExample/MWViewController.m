@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Martin Wilz. All rights reserved.
 //
 
+#import "MWAwesomeFontNavigationBarItem.h"
 #import "MWViewController.h"
 
 @interface MWViewController ()
@@ -17,13 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    MWAwesomeFontNavigationBarItem *item = [MWAwesomeFontNavigationBarItem barItemWithFontAwesomeIconName:@"fa-circle"];
+    self.navigationItem.rightBarButtonItem = item;
 }
 
 @end

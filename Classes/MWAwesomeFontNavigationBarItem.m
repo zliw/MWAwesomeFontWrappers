@@ -11,11 +11,16 @@
 #import "FAKFontAwesome+ImageCreator.h"
 
 
-/** drop in replacement for UIBarButtonItem. It checks on startup, if the title of the button starts with the string
- fa. It then tries to lookup the corresponding icon and sets this as an image (and removes the title). the tint
- set in interface builder is still used.
- */
 @implementation MWAwesomeFontNavigationBarItem
+
++ (instancetype)barItemWithFontAwesomeIconName:(NSString *)iconName
+{
+    MWAwesomeFontNavigationBarItem *item = [self new];
+    if (item) {
+        item.image = [FAKFontAwesome navigationBarButtomImageWithName:iconName];
+    }
+    return item;
+}
 
 - (void)awakeFromNib
 {
@@ -33,6 +38,5 @@
         }
     }
 }
-
 
 @end

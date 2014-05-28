@@ -133,7 +133,6 @@
 			children = (
 				5BCD4417192D0B8B00830952 /* MWAppDelegate.h */,
 				5BCD4418192D0B8B00830952 /* MWAppDelegate.m */,
-				5BCD441A192D0B8B00830952 /* Main.storyboard */,
 				5BCD441D192D0B8B00830952 /* MWViewController.h */,
 				5BCD441E192D0B8B00830952 /* MWViewController.m */,
 				5BCD4420192D0B8B00830952 /* Images.xcassets */,
@@ -145,6 +144,7 @@
 		5BCD440F192D0B8B00830952 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5BCD441A192D0B8B00830952 /* Main.storyboard */,
 				5BCD4410192D0B8B00830952 /* MWAwesomeFontWrapperExample-Info.plist */,
 				5BCD4411192D0B8B00830952 /* InfoPlist.strings */,
 				5BCD4414192D0B8B00830952 /* main.m */,

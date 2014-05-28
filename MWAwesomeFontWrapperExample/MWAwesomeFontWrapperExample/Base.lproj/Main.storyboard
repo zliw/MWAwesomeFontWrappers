@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="5Q7-d2-4Cv">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="6v0-PX-Gpl">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -127,24 +127,25 @@
                         </connections>
                     </tableView>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
-                    <navigationItem key="navigationItem" id="LfZ-3G-GLK"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="LfZ-3G-GLK">
+                        <barButtonItem key="leftBarButtonItem" title="fa-bars" id="4sH-S3-4Q9" userLabel="Awesome Font Bar Button Item -  fa-play-circle-o" customClass="MWAwesomeFontNavigationBarItem">
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="fa-star" id="G8m-fp-Wzk" customClass="MWAwesomeFontNavigationBarItem">
+                            <color key="tintColor" red="1" green="0.66677871870000005" blue="0.00099119386939999993" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o5v-Pm-P8H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1402" y="-250"/>
         </scene>
-        <!--Tab Bar Controller - Test-->
+        <!--Tab Bar Controller-->
         <scene sceneID="fGd-zW-FMM">
             <objects>
                 <tabBarController definesPresentationContext="YES" id="6v0-PX-Gpl" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" title="Test" id="gpA-vz-ONl">
-                        <barButtonItem key="leftBarButtonItem" title="fa-star" id="jpY-pf-K1s" customClass="MWAwesomeFontNavigationBarItem">
-                            <color key="tintColor" red="1" green="0.66677871870000005" blue="0.00099119386939999993" alpha="1" colorSpace="calibratedRGB"/>
-                        </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="fa-bars" id="b84-UE-b7n" userLabel="Awesome Font Bar Button Item -  fa-play-circle-o" customClass="MWAwesomeFontNavigationBarItem">
-                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                        </barButtonItem>
-                    </navigationItem>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="YbY-PU-Sg5">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
@@ -153,7 +154,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="VrE-in-dl9" kind="relationship" relationship="viewControllers" id="pzG-yU-Lso"/>
-                        <segue destination="CVZ-V1-MSd" kind="relationship" relationship="viewControllers" id="f0F-bj-jyP"/>
+                        <segue destination="5Q7-d2-4Cv" kind="relationship" relationship="viewControllers" id="mKs-eB-rZX"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qvu-k4-5Ed" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -165,14 +166,13 @@
                         <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </barButtonItem>
                 </navigationItem>
-                <navigationItem title="Root View Controller" id="2dM-Ol-d9a"/>
             </objects>
-            <point key="canvasLocation" x="428" y="249"/>
+            <point key="canvasLocation" x="163" y="244"/>
         </scene>
-        <!--View Controller - Arrows[fa-arrows]-->
+        <!--View Controller - Test2-->
         <scene sceneID="iHf-9j-bqc">
             <objects>
-                <viewController id="CVZ-V1-MSd" sceneMemberID="viewController">
+                <viewController id="CVZ-V1-MSd" customClass="MWViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="euk-Qv-daB"/>
                         <viewControllerLayoutGuide type="bottom" id="9bk-nX-Cc5"/>
@@ -183,25 +183,27 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Arrows[fa-arrows]" id="Fg3-23-G0L" customClass="MWAwesomeFontTabBarItem"/>
+                    <navigationItem key="navigationItem" title="Test2" id="uR7-Hd-9UW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iVO-Bw-zqv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="924" y="440"/>
+            <point key="canvasLocation" x="1100" y="440"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navigation Controller - Item-->
         <scene sceneID="pVm-dN-Qg3">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="etU-dQ-3SX" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController definesPresentationContext="YES" id="5Q7-d2-4Cv" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="d8K-C2-JbX"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="WpE-AG-v5O">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="6v0-PX-Gpl" kind="relationship" relationship="rootViewController" id="Gwl-xh-6Mo"/>
+                        <segue destination="CVZ-V1-MSd" kind="relationship" relationship="rootViewController" id="yIe-TX-jDp"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="etU-dQ-3SX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-33" y="271"/>
+            <point key="canvasLocation" x="670" y="440"/>
         </scene>
         <!--Navigation Controller - Circle [fa-circle]-->
         <scene sceneID="i1r-vP-M0B">

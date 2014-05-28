@@ -10,4 +10,10 @@
 
 @interface MWAwesomeFontTabBarItem : UITabBarItem
 
+/** convenience class method for creating barItems from code
+ * @param iconName a NSString containing the font awesome name of the icon (e.g. @"fa-bars")
+ * @return a MWAwesomeFontTabBarItem. The image is not set, if the icon with the name is unknown
+ */
++ (instancetype)barItemWithFontAwesomeIconName:(NSString *)iconName;
+
 @end

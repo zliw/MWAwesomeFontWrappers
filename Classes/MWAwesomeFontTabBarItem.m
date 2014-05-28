@@ -13,6 +13,16 @@
 
 @implementation MWAwesomeFontTabBarItem
 
++ (instancetype)barItemWithFontAwesomeIconName:(NSString *)iconName
+{
+    MWAwesomeFontTabBarItem *item = [self new];
+    if (item) {
+        item.image = [FAKFontAwesome navigationBarButtomImageWithName:iconName];
+    }
+    return item;
+}
+
+
 - (void)awakeFromNib
 {
     [super awakeFromNib];
@@ -43,7 +53,6 @@
     if (matches.count == 1) {
         NSTextCheckingResult *match = matches[0];
         iconName = [iconName substringWithRange:match.range];
-        NSLog(@"matched %@", iconName);
 
         NSString *withoutBrackets = [self.title stringByReplacingOccurrencesOfString:iconName withString:@""];
 
