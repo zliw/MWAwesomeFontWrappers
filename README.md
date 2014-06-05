@@ -15,10 +15,8 @@ A collection of UIView subclasses to wrap around [FontAwesomeKit](https://github
 Add the following line to your Podfile:
 
 ```ruby
-pod 'MWAwesomeFontWrappers' , :git=> 'https://github.com/zliw/MWAwesomeFontWrappers.git'
+pod 'MWAwesomeFontWrappers', '~> 0.1'
 ```
-
-Or wait until this package becomes an official package. 
 
 ## Usage
 
